@@ -1,0 +1,58 @@
+.about-us{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+.about-us .sub-about-us{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-us .sub-about-us .about-us-text{
+    width: 65%;
+}
+.about-us .sub-about-us .about-us-text h4{
+    margin-block-start: 40px;
+    margin-block-end: 0;
+    color: var(--darkYellow);
+}
+.about-us .sub-about-us .about-us-text p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 70%;
+}
+.about-us .sub-about-us .img-div{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--darkYellow);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.about-us .sub-about-us .img-div img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 933px) {
+    .about-us .sub-about-us {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .about-us .sub-about-us .about-us-text{
+        width: 100%;
+        margin-top: 50px;
+        /* background-color: brown; */
+    }
+    .about-us .sub-about-us .about-us-text p{
+        width: 100%;
+    }
+    .about-us .sub-about-us .img-div{
+        width: 80%;
+    }
+    .about-us .sub-about-us .img-div img{
+        width: 100%;
+    }
+}

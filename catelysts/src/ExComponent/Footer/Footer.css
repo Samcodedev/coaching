@@ -1,0 +1,80 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkYellow);
+    margin-top: 50px;
+}
+footer .sub-footer{
+    width: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+footer .sub-footer .footer-social{
+    width: 350px;
+    margin-bottom: 30px;
+}
+footer .sub-footer .footer-social h4{
+    margin-block-start: 0;
+    font-weight: 800;
+    color: #fff;
+}
+footer .sub-footer .footer-social p{
+    color: #fff;
+}
+footer .sub-footer .footer-social .icons{
+    display: flex;
+    gap: 20px;
+}
+footer .sub-footer .footer-social .icons svg{
+    color: var(--YellowColor);
+    cursor: pointer;
+}
+footer .sub-footer .footer-service{
+    width: 350px;
+    margin-bottom: 30px;
+}
+footer .sub-footer .footer-service h4{
+    margin-block-start: 0;
+    font-weight: 800;
+    color: #fff;
+}
+footer .sub-footer .footer-service ul{
+    padding-inline-start: 15px;
+}
+footer .sub-footer .footer-service ul li{
+    color: #fff;
+    cursor: default;
+    width: fit-content;
+}
+footer .sub-footer .footer-service ul li:hover{
+    color: var(--YellowColor);
+}
+footer .sub-footer button{
+    padding: 8px 20px;
+    background-color: var(--darkYellow);
+    border: 1.5px solid var(--YellowColor);
+    border-radius: 5px;
+    color: var(--YellowColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
+
+footer .copy-right{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    border-top: 1.5px solid #fff;
+}
+footer .copy-right h4{
+    width: fit-content;
+    color: #fff;
+}

@@ -1,0 +1,96 @@
+.coach{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    background-color: rgb(81, 79, 79);
+}
+.coach .sub-coach{
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.coach .sub-coach .coach-text p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: var(--gray);
+}
+.coach .sub-coach .coach-text h2{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    font-size: 2rem;
+    color: #fff;
+}
+.coach .sub-coach .coach-text button{
+    padding: 8px 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
+.coach .sub-coach .coach-text button:hover{
+    color: var(--YellowColor);
+    border: 1.5px solid var(--YellowColor);
+}
+.coach .sub-coach .coach-text button svg{
+    font-size: 20px;
+}
+.coach .sub-coach .coach-div{
+    background-color: var(--YellowColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -45px;
+    border-radius: 5px;
+}
+.coach .sub-coach .coach-div h2{
+    width: 70%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 1.8rem;
+    font-size: 1.6rem;
+}
+.coach .sub-coach .coach-div button{
+    padding: 8px 10px;
+    background-color: var(--darkYellow);
+    border: 1.5px solid var(--darkYellow);
+    border-radius: 5px;
+    color: var(--YellowColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
+.coach .sub-coach .coach-div button:hover{
+    color: var(--darkYellow);
+    background-color: transparent;
+}
+.coach .sub-coach .coach-div button svg{
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 828px) {
+    .coach .sub-coach .coach-div{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .coach .sub-coach .coach-div h2{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

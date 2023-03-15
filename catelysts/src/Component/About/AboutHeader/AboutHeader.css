@@ -1,0 +1,52 @@
+.about-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: var(--gray);
+}
+.about-header .sub-about-header{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-header .sub-about-header h2{
+    font-size: 2rem;
+    color: var(--darkYellow);
+    font-weight: 800;
+    margin-block-start: 0;
+    margin-block-end: 0px;
+}
+.about-header .sub-about-header p{
+    width: 80%;
+}
+.about-header .sub-about-header ul{
+    display: flex;
+    padding-inline-start: 0;
+    gap: 10px;
+    list-style: none;
+    margin-top: 0;
+}
+.about-header .sub-about-header ul a{
+    text-decoration-line: none;
+    color: black;
+}
+.about-header .sub-about-header ul li{
+    cursor: pointer;
+}
+.about-header .sub-about-header ul li:hover{
+    color: var(--YellowColor);
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .about-header .sub-about-header h2{
+        font-size: 1.5rem;
+    }
+    .about-header .sub-about-header p{
+        width: 95%;
+    }
+}
