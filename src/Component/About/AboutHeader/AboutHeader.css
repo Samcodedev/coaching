@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
     background-color: var(--gray);
 }
 .about-header .sub-about-header{

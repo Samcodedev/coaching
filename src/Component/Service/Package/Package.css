@@ -1,0 +1,14 @@
+.package{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.package .sub-package{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 20px;
+}

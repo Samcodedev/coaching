@@ -1,0 +1,73 @@
+.sub-card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 15, 14);
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px 15px;
+}
+.sub-card .top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1.5px solid var(--gray);
+    padding-bottom: 15px;
+}
+.sub-card .top .top-icons{
+    background-color: var(--gray);
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-card .top .top-icons svg{
+    font-size: 30px;
+}
+.sub-card .top .top-text{
+    margin-left: 10px;
+}
+.sub-card .top .top-text h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.sub-card .top .top-text p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 13px;
+    color: var(--YellowColor);
+}
+
+
+.sub-card ul{
+    padding-inline-start: 15px;
+}
+.sub-card ul li{
+    color: #c6c3c3;
+    font-size: 13px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.sub-card ul li:hover{
+    color: var(--YellowColor);
+    cursor: default;
+}
+
+.sub-card button{
+    background-color: var(--YellowColor);
+    border: 1.5px solid var(--YellowColor);
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.sub-card button:hover{
+    background-color: transparent;
+    color: var(--YellowColor);
+}

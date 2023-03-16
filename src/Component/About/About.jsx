@@ -5,7 +5,11 @@ import AboutUs from './AboutUs/AboutUs'
 const About = () => {
   return (
     <>
-        <AboutHeader />
+        <AboutHeader 
+          title="About Global Catalysts"
+          content="The Global Catalysts is training and consultancy firm registered in 2011."
+          link="About"
+        />
         <AboutUs />
     </>
   )
