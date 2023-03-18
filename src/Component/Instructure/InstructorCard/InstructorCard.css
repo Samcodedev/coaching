@@ -1,0 +1,12 @@
+.instructorCard{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.instructorCard .sub-instructorCard{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

@@ -3,6 +3,7 @@
     background-color: #fff;
     border-radius: 10px;
     width: 200px;
+    cursor: default;
 }
 .card:hover{
     background-color: var(--YellowColor);

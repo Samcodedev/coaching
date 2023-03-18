@@ -4,6 +4,10 @@
     align-items: center;
     height: 50vh;
     background-color: var(--gray);
+    background-image: url('../../img/c00cd74b0b22cd7e328a0853f8cab159.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
 }
 .about-header .sub-about-header{
     width: 90%;
@@ -14,13 +18,14 @@
 }
 .about-header .sub-about-header h2{
     font-size: 2rem;
-    color: var(--darkYellow);
+    color: #fff;
     font-weight: 800;
     margin-block-start: 0;
     margin-block-end: 0px;
 }
 .about-header .sub-about-header p{
     width: 80%;
+    color: #eeecec;
 }
 .about-header .sub-about-header ul{
     display: flex;
@@ -31,7 +36,7 @@
 }
 .about-header .sub-about-header ul a{
     text-decoration-line: none;
-    color: black;
+    color: #fff;
 }
 .about-header .sub-about-header ul li{
     cursor: pointer;

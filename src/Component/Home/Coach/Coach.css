@@ -3,6 +3,10 @@
     justify-content: center;
     padding: 50px 0 0 0;
     background-color: rgb(81, 79, 79);
+    background-image: url('../../img/c00cd74b0b22cd7e328a0853f8cab159.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
 }
 .coach .sub-coach{
     /* background-color: aqua; */
@@ -11,6 +15,11 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+}
+.coach .sub-coach .coach-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .coach .sub-coach .coach-text p{
     margin-block-start: 0;
@@ -23,7 +32,11 @@
     font-size: 2rem;
     color: #fff;
 }
-.coach .sub-coach .coach-text button{
+.coach .sub-coach .coach-text a{
+    text-decoration-line: none;
+    width: fit-content;
+}
+.coach .sub-coach .coach-text a button{
     padding: 8px 10px;
     margin-top: 10px;
     background-color: transparent;
@@ -36,7 +49,7 @@
     gap: 10px;
     cursor: pointer;
 }
-.coach .sub-coach .coach-text button:hover{
+.coach .sub-coach .coach-text a button:hover{
     color: var(--YellowColor);
     border: 1.5px solid var(--YellowColor);
 }
@@ -61,7 +74,10 @@
     line-height: 1.8rem;
     font-size: 1.6rem;
 }
-.coach .sub-coach .coach-div button{
+.coach .sub-coach .coach-div a{
+    text-decoration-line: none;
+}
+.coach .sub-coach .coach-div a button{
     padding: 8px 10px;
     background-color: var(--darkYellow);
     border: 1.5px solid var(--darkYellow);
@@ -73,11 +89,11 @@
     gap: 10px;
     cursor: pointer;
 }
-.coach .sub-coach .coach-div button:hover{
+.coach .sub-coach .coach-div a button:hover{
     color: var(--darkYellow);
     background-color: transparent;
 }
-.coach .sub-coach .coach-div button svg{
+.coach .sub-coach .coach-div a button svg{
     font-size: 20px;
 }
 

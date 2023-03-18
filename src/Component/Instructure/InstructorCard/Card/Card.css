@@ -1,0 +1,76 @@
+.inCard{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.inCard .img-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.inCard .img-div img{
+    width: 100%;
+    position: relative;
+}
+.inCard .text-div{
+    position: relative;
+    background-color: var(--gray);
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inCard .text-div .name{
+    background-color: rgb(206, 204, 204);
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: -40px;
+}
+.inCard .text-div .name h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 1rem;
+}
+.inCard .text-div .name p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 0.8rem;
+}
+.inCard .text-div .contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    position: relative;
+    top: -20px;
+}
+.inCard .text-div .contact .icon{
+    padding: 10px 10px;
+    background-color: rgb(206, 204, 204);
+    border: 1.5px solid rgb(206, 204, 204);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 15px;
+    color: var(--darkYellow);
+}
+.inCard .text-div .contact .icon:hover{
+    border: 1.5px solid var(--YellowColor);
+    color: var(--YellowColor);
+}
+.inCard .text-div .contact .icon p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.inCard .text-div .contact .icon svg{
+    font-size: 20px;
+}

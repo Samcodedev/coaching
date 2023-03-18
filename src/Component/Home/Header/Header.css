@@ -1,9 +1,13 @@
 .header{
-    background-color: rgb(81, 79, 79);
+    /* background-color: rgb(81, 79, 79); */
+    background-image: url('../../img/b235e92c3338528425910123296c1d18.jpg');
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .header .text-div{
     /* background-color: blue; */
