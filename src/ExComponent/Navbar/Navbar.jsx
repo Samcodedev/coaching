@@ -15,7 +15,7 @@ const Navbar = () => {
     openFunc(!open)
   }
 
-  let cancel = document.getElementById("cancel")
+  // let cancel = document.getElementById("cancel")
 
   // setInterval(() => {
   //   window.innerWidth >= 970 ? openFunc(true) : console.log("yeeeh")
