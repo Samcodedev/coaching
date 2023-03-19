@@ -14,7 +14,7 @@
 }
 .navbar img{
     position: relative;
-    height: 70%;
+    height: 50px;
 }
 .navbar svg{
     color: #8a8a8a;
@@ -26,7 +26,22 @@
     justify-content: center;
     /* background-color: brown; */
 }
+.navbar .dd-mobile{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: brown; */
+}
 .navbar .dd ul{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    padding-inline-start: 0;
+    list-style: none;
+    /* background-color: aqua; */
+}
+.navbar .dd-mobile ul{
     width: 50%;
     justify-content: space-between;
     display: flex;
@@ -45,6 +60,12 @@
 .navbar .dd ul a li:hover{
     color: var(--YellowColor);
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 970px) {
     .navbar{

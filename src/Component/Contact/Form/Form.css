@@ -1,0 +1,76 @@
+.form{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.form .sub-form{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.form .sub-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7d7d7;
+    gap: 20px;
+    width: 60%;
+    padding: 40px 0;
+    border-radius: 5px;
+}
+.form .sub-form form h3{
+    font-size: 1.5rem;
+    margin-block-start: 0;
+    color: var(--darkYellow);
+}
+.form .sub-form form input{
+    padding: 15px 25px;
+    border: 1.5px solid var(--gray);
+    border-radius: 5px;
+    width: 80%;
+    background-color: #e1e1e1;
+    color: #2b2a2a;
+    min-width: 250px;
+    position: relative;
+}
+.form .sub-form form input:focus{
+    outline: none;
+    border: 1.5px solid var(--YellowColor);
+}
+.form .sub-form form input:last-child{
+    background-color: var(--YellowColor);
+    width: fit-content;
+    border: 1.5px solid var(--YellowColor);
+    color: #fff;
+    padding: 15px 45px;
+    cursor: pointer;
+
+}
+.form .sub-form form select{
+    width: 87%;
+    background-color: aquamarine;
+    padding: 15px 25px;
+    border: 1.5px solid var(--gray);
+    border-radius: 5px;
+    background-color: #e1e1e1;
+    color: #2b2a2a;
+    min-width: 330.7px;
+    position: relative;
+}
+.form .sub-form form select:focus{
+    outline: none;
+    border: 1.5px solid var(--YellowColor);
+}
+
+@media screen and (max-width: 976px) { 
+    .form .sub-form form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .form .sub-form{
+        width: 95%;
+    }
+}
