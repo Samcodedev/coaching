@@ -54,8 +54,11 @@
     color: var(--YellowColor);
     cursor: default;
 }
-
-.sub-card button{
+.sub-card a{
+    width: 100%;
+    text-decoration-line: none;
+}
+.sub-card a button{
     background-color: var(--YellowColor);
     border: 1.5px solid var(--YellowColor);
     border-radius: 5px;
@@ -66,8 +69,9 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    width: 100%;
 }
-.sub-card button:hover{
+.sub-card a button:hover{
     background-color: transparent;
     color: var(--YellowColor);
 }

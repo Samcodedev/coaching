@@ -55,7 +55,10 @@ footer .sub-footer .footer-service ul li{
 footer .sub-footer .footer-service ul li:hover{
     color: var(--YellowColor);
 }
-footer .sub-footer button{
+footer .sub-footer a{
+    text-decoration-line: none;
+}
+footer .sub-footer a button{
     padding: 8px 20px;
     background-color: var(--darkYellow);
     border: 1.5px solid var(--YellowColor);

@@ -5,6 +5,7 @@ import {
     BsTwitter, 
     BsFacebook 
 } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -14,9 +15,9 @@ const Footer = () => {
             <h4>Follow us</h4>
             <p>follow Global Catalysts for more update and upcoming coaching sections on our social media handles</p>
             <div className="icons">
-                <BsInstagram />
-                <BsTwitter />
-                <BsFacebook />
+                <a href="https://www.linkedin.com/in/afolabi-omotesho-79419674/"><BsInstagram /></a>
+                <a href="https://www.linkedin.com/in/afolabi-omotesho-79419674/"><BsTwitter /></a>
+                <a href="https://www.linkedin.com/in/afolabi-omotesho-79419674/"><BsFacebook /></a>
             </div>
         </div>
         <div className="footer-service">
@@ -27,7 +28,7 @@ const Footer = () => {
                 <li>Cooperate training</li>
             </ul>
         </div>
-        <button>Contact us</button>
+        <Link to="/contact"><button>Contact us</button></Link>
       </div>
       <div className="copy-right">
         <h4>Copyright @ 2023 All reserved</h4>

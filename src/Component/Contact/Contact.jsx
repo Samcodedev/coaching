@@ -1,8 +1,12 @@
 import React from 'react'
 import AboutHeader from '../About/AboutHeader/AboutHeader'
 import Form from './Form/Form'
+import { useLocation } from 'react-router-dom'
 
 const Contact = () => {
+  const location = useLocation()
+  // let mes = location.state.id
+  // console.log(location)
   return (
     <>
       <AboutHeader 
@@ -10,7 +14,9 @@ const Contact = () => {
         content="Get in touch with us by filling the form bellow."
         link="contact"
       />
-      <Form />
+      <Form 
+        data={location.state}
+      />
     </>
   )
 }

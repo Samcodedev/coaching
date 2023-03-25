@@ -1,6 +1,6 @@
 import React from 'react'
 import './ServiceText.css'
-import img from '../../img/haplogo.jpg'
+import img from '../../img/IMG-20210526-WA0006.jpg'
 
 const ServiceText = () => {
   return (

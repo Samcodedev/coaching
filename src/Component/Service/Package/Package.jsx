@@ -7,6 +7,10 @@ const Package = () => {
         {
             title: "CORPORATE TRAINING PACKAGES",
             subTitle: "$24/month",
+            contactValue: {
+                one: "Book a cooperate training",
+                two: "Select a contact option"
+            },
             list:[
                 {li: "Leadership Development"},
                 {li: "Customer Service (ServicEdge)"},
@@ -24,6 +28,10 @@ const Package = () => {
         {
             title: "THE LIFE MENTORING PROGRAM (TLMP)",
             subTitle: "$24/month",
+            contactValue: {
+                one: "Book a life mentoring program",
+                two: "Select a contact option"
+            },
             list:[
                 {li: "Career Mentorship"},
                 {li: "Academic Excellenc"},
@@ -41,11 +49,14 @@ const Package = () => {
                 title={item.title}
                 subTitle={item.subTitle}
                 list={item.list}
+                contactValue={item.contactValue}
             />
         )
     })
   return (
     <div className='package'>
+        <h2>Package</h2>
+        <p>Our exclusive page</p>
       <div className="sub-package">
         {card}
       </div>

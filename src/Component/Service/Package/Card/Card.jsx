@@ -2,6 +2,7 @@ import React from 'react'
 import './Card.css'
 import { VscPassFilled } from 'react-icons/vsc'
 import { FaLongArrowAltRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Card = (props) => {
     const data = props.list
@@ -25,8 +26,11 @@ const Card = (props) => {
       </div>
       <ul>
         {list}
+        {/* contactValue */}
       </ul>
-      <button><span>Choose Plan</span> <FaLongArrowAltRight /> </button>
+      <Link to="/contact" state={{ id: props.contactValue}}>
+        <button><span>Choose Plan</span> <FaLongArrowAltRight /> </button>
+      </Link>
     </div>
   )
 }
