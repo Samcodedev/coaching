@@ -56,7 +56,7 @@ const Package = () => {
   return (
     <div className='package'>
         <h2>Package</h2>
-        <p>Our exclusive page</p>
+        <p>Our exclusive package lists</p>
       <div className="sub-package">
         {card}
       </div>
