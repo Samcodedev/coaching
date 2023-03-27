@@ -48,7 +48,12 @@
     background-color: transparent;
     color: var(--darkYellow);
 }
-.card button svg{
+.card a{
+    text-decoration-line: none;
+    width: fit-content;
+    display: flex;
+}
+.card a button svg{
     font-size: 20px;
 }
 .card:hover #details{

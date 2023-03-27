@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div className="sub-about-us">
         <div className="about-us-text">
             <h4>Global Catalysts</h4>
-            <p>The Global Catalysts is training and consultancy firm registered in 2011. We started operations in the year 2012 when we launched our first Conference for young men and women tagged Be the Change Conference in the city of Ilorin, Kwara State. We have since created different solutions and programmes in line with our vision.</p>
+            <p>The Global Catalysts is a training and consultancy firm registered in 2011. We started operations in the year 2012 when we launched our first Conference for young men and women tagged Be the Change Conference in the city of Ilorin, Kwara State. We have since created different solutions and programmes in line with our vision.</p>
 
             <h4>Our vision</h4>
             <p>Our vision is to build individuals as well as organisations that are positive, productive and driven by purpose.</p>

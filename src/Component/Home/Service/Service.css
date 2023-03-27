@@ -16,7 +16,7 @@
     text-align: left;
 }
 .service .sub-service .service-text svg{
-    color: var(--YellowColor);
+    color: #ca9d07;
     margin-left: 5px;
 }
 .service .sub-service .service-text h2{
@@ -25,7 +25,19 @@
     margin-block-end: 0;
 }
 .service .sub-service .service-cards{
+    display: flex;
+    flex-direction: column;
     width: 65%;
+}
+.service .sub-service .service-cards h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-block-end: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.service .sub-service .service-cards .sub-service-cards{
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     gap: 10px;

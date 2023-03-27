@@ -2,6 +2,7 @@ import React from 'react'
 import './Card.css'
 import { VscPassFilled } from 'react-icons/vsc'
 import { RxTriangleRight } from 'react-icons/rx'
+import { Link } from 'react-router-dom'
 
 const Card = (props) => {
   return (
@@ -11,7 +12,9 @@ const Card = (props) => {
         <h3>{props.title}</h3>
       </div>
       <p>{props.contents}</p>
-      <button id='details'><RxTriangleRight /> <span>More details</span></button>
+      <Link to="/service">
+        <button id='details'><RxTriangleRight /> <span>Our Service</span></button>
+      </Link>
     </div>
   )
 }

@@ -1,7 +1,5 @@
 import React from 'react'
 import './Card.css'
-import { FiMail } from 'react-icons/fi'
-import { BsLinkedin } from 'react-icons/bs'
 // import img from '../../../img/Screenshot_20221107-011506_Instagram-2.jpg'
 
 const Card = (props) => {
@@ -15,7 +13,7 @@ const Card = (props) => {
             <h4>{props.name}</h4>
             <p>{props.role}</p>
         </div>
-        <div className="contact">
+        {/* <div className="contact">
           <a href={props.mail}>
             <div className="icon">
               <FiMail />
@@ -27,7 +25,7 @@ const Card = (props) => {
               <BsLinkedin />
             </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )

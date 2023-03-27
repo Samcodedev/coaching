@@ -7,7 +7,7 @@ const About = () => {
     <>
         <AboutHeader 
           title="About Global Catalysts"
-          content="The Global Catalysts is training and consultancy firm registered in 2011."
+          content="The Global Catalysts is a training and consultancy firm registered in 2011."
           link="About"
         />
         <AboutUs />

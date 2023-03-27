@@ -1,7 +1,7 @@
 .sub-card{
     display: flex;
     flex-direction: column;
-    background-color: rgb(15, 15, 14);
+    background-color: rgb(70, 70, 70);
     width: 300px;
     border-radius: 5px;
     padding: 15px 15px;

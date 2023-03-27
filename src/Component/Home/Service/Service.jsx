@@ -39,7 +39,7 @@ const Service = () => {
     <div className='service'>
       <div className="sub-service">
         <div className="service-text">
-            <h2>OUR CORE VALUES & MISSION</h2>
+            <h2>OUR MISSION</h2>
             <p>We inspire individual and organizations through mental empowering training, coaching, consultation, and therapy, to align with their personal and organizational visions, and to positively contribute to the growth of themselves, their business environment and to the world at large. </p>
             <BsFillStarFill />
             <BsFillStarFill />
@@ -48,7 +48,10 @@ const Service = () => {
             <BsFillStarFill />
         </div>
         <div className="service-cards">
-            {cards}
+            <h2>OUR CORE VALUES</h2>
+            <div className="sub-service-cards">
+              {cards}
+            </div>
         </div>
       </div>
     </div>

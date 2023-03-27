@@ -52,6 +52,7 @@
 
 @media screen and (max-width: 454px) {
     .tescard{
-        min-width: 90%;
+        min-width: 80%;
+        margin: 50px 10px;
     }
 }

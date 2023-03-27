@@ -1,6 +1,6 @@
 .header{
-    /* background-color: rgb(81, 79, 79); */
-    background-image: url('../../img/b235e92c3338528425910123296c1d18.jpg');
+    background-color: rgb(26, 26, 26);
+    /* background-image: url('../../img/bca18913-2ba7-43b5-8247-70d77e739a2c.jfif'); */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -26,6 +26,7 @@
     margin-block-start: 5px;
     margin-block-end: 30px;
     color: #fff;
+    font-size: 1.7rem;
 }
 
 .header .text-div h1 span{
