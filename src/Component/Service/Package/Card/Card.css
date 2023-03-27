@@ -51,7 +51,7 @@
     width: fit-content;
 }
 .sub-card ul li:hover{
-    color: var(--YellowColor);
+    color: var(--darkYellow);
     cursor: default;
 }
 .sub-card a{
@@ -59,10 +59,10 @@
     text-decoration-line: none;
 }
 .sub-card a button{
-    background-color: var(--YellowColor);
-    border: 1.5px solid var(--YellowColor);
+    background-color: #fff;
+    border: 1.5px solid #fff;
     border-radius: 5px;
-    color: #fff;
+    color: rgb(70, 70, 70);
     padding: 10px 0;
     cursor: pointer;
     display: flex;
@@ -73,5 +73,5 @@
 }
 .sub-card a button:hover{
     background-color: transparent;
-    color: var(--YellowColor);
+    color: #fff;
 }

@@ -2,7 +2,7 @@
     background-color: rgb(26, 26, 26);
     /* background-image: url('../../img/bca18913-2ba7-43b5-8247-70d77e739a2c.jfif'); */
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     height: 90vh;
     background-size: cover;
@@ -12,7 +12,7 @@
 .header .text-div{
     /* background-color: blue; */
     padding: 40px 50px;
-    text-align: right;
+    text-align: left;
     width: 600px;
     max-width: 80%;
     margin-right: 10%;
@@ -41,7 +41,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-    float: right;
+    float: left;
     color: #fff;
     cursor: pointer;
 }
