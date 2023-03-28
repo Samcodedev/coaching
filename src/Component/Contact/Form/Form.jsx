@@ -1,10 +1,11 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import './Form.css'
 import emailjs from 'emailjs-com'
 
 const Form = (props) => {
 
   const form = useRef()
+  const [message, messagefunc] = useState()
 
   const sendEmail = (e) =>{
     e.preventDefault();  
@@ -12,6 +13,7 @@ const Form = (props) => {
     emailjs.sendForm('service_k5eit5c', 'template_rn22d5j', form.current, 'Kc0dD2RzmpV1gMPY1')
     .then((result) => {
       console.log(result.text);
+      result.text = "ok"? messagefunc("Successful") : messagefunc("Not successful")
     }, (error) => {
       console.log(error.text);
     });
@@ -42,7 +44,7 @@ const Form = (props) => {
             </select>
             <input type="text" name="subject" placeholder="Subject*" />
             <input type="text" name="message" placeholder='Message goes here*' />
-            <input type="submit" value="Submit" />
+            <input type="submit" value={message} />
         </form>
       </div>
     </div>

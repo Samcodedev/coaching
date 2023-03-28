@@ -5,6 +5,10 @@
     justify-content: center;
     padding: 30px 0;
 }
+.package span{
+    text-align: center;
+    width: fit-content;
+}
 .package h2{
     color: var(--darkYellow);
     font-size: 2rem;

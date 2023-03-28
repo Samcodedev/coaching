@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Educard from './Educard/Educard'
 import './Education.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Education = () => {
     const data = [
@@ -34,10 +36,17 @@ const Education = () => {
             />
         )
     })
+  
+
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
+  
   return (
     <div className='education'>
       <div className="sub-education">
-        <div className="education-head">
+        <div className="education-head" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="600">
             <h4>Educational Services</h4>
             <p>With over two decades of experience in the educational sector, we have developed various solutions and programmes to cater for the needs of schools and colleges. Some of our solutions include.</p>
         </div>

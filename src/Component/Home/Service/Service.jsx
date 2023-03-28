@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Card from './Card/Card'
 import './Service.css'
 import { BsFillStarFill} from 'react-icons/bs'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Service = () => {
   const data = [
@@ -35,10 +37,20 @@ const Service = () => {
       />
     )
   })
+  
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className='service'>
       <div className="sub-service">
-        <div className="service-text">
+        <div className="service-text"  
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-out">
             <h2>OUR MISSION</h2>
             <p>We inspire individual and organizations through mental empowering training, coaching, consultation, and therapy, to align with their personal and organizational visions, and to positively contribute to the growth of themselves, their business environment and to the world at large. </p>
             <BsFillStarFill />

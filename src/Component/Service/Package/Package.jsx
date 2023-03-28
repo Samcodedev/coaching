@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Card from './Card/Card'
 import './Package.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Package = () => {
     const data = [
@@ -53,10 +55,19 @@ const Package = () => {
             />
         )
     })
+  
+
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
+  
   return (
     <div className='package'>
-        <h2>Package</h2>
-        <p>Our exclusive package lists</p>
+        < span data-aos="fade-up" data-aos-duration="600">
+            <h2>Package</h2>
+            <p>Our exclusive package lists</p>
+        </span>
       <div className="sub-package">
         {card}
       </div>
