@@ -30,7 +30,7 @@ const Card = (props) => {
         </div>
         <div className="top-text">
             <h4>{props.title}</h4>
-            <p>{props.subTitle}</p>
+            {/* <p>{props.subTitle}</p> */}
         </div>
       </div>
       <ul>
