@@ -16,9 +16,9 @@ const Educard = (props) => {
     <div className='educard' data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="600">
       <div className="edu-top">
         <VscPassFilled id='svg' />
-        <h3>{props.title}</h3>
+        <h3 id='h3'>{props.title}</h3>
       </div>
-      <p>{props.content}</p>
+      <p id='p'>{props.content}</p>
     </div>
   )
 }

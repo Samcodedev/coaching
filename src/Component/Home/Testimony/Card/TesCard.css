@@ -6,7 +6,7 @@
     background-image: linear-gradient(to bottom right, #30323d, 20%, var(--darkYellow));
     /* background-color: var(--gray); */
     padding: 20px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 50px 30px;
     margin-left: 0;
 }
@@ -20,7 +20,7 @@
     position: relative;
     width: 50px;
     height: 50px;
-    border: 8px solid rgba(212, 139, 3, 0.567);
+    border: 8px solid rgba(123, 121, 118, 0.567);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -40,7 +40,7 @@
 .tescard .text-div .footer h4{
     font-size: 1rem;
     margin-top: 20px;
-    color: var(--YellowColor);
+    color: #fff;
     font-weight: 800;
     margin-block-end: 5px;
 }

@@ -32,7 +32,7 @@
 .navbar .sub-navbar .desktop ul{
     display: flex;
     padding-inline-start: 0;
-    width: 80%;
+    width: 50%;
     justify-content: space-around;
 }
 .navbar .sub-navbar .desktop ul a{

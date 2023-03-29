@@ -59,7 +59,7 @@ const Testimony = () => {
     <div className='testimony' >
         <div className="testimony-text">
           <p>Clients reviews</p>
-          <h2>What our clients say on our eligibility and success rate</h2>
+          <h2>What our clients say on our <br /> eligibility and success rate</h2>
         </div>
         <motion.div className="carousel" ref={carousel} whileTap={{cursor: "grabbing"}}>
             <motion.div drag="x" dragConstraints={{right: 0, left: -width}} className="inner">

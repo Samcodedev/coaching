@@ -30,7 +30,8 @@
 }
 
 .header .text-div h1 span{
-    color: var(--YellowColor);
+    font-weight: 800;
+    color: rgb(190, 190, 190);
 }
 .header .text-div button{
     padding: 10px 25px;

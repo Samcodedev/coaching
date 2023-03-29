@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: var(--darkYellow);
-    padding: 50px 0;
+    padding: 80px 0;
 }
 .service .sub-service{
     display: flex;

@@ -31,11 +31,14 @@
     margin-block-end: 0;
     font-weight: light;
 }
+.card:hover #p{
+    color: #fff;
+}
 .card button{
     padding: 8px 10px;
     margin-top: 10px;
-    background-color: var(--darkYellow);
-    border: 1.5px solid var(--darkYellow);
+    background-color: #fff;
+    border: 1.5px solid #fff;
     border-radius: 5px;
     color: var(--YellowColor);
     display: none;
@@ -46,7 +49,7 @@
 }
 .card button:hover{
     background-color: transparent;
-    color: var(--darkYellow);
+    color: #fff;
 }
 .card a{
     text-decoration-line: none;

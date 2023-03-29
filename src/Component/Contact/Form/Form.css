@@ -48,8 +48,9 @@
 
 }
 .form .sub-form form select{
-    width: 87%;
-    background-color: aquamarine;
+    width: 89%;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
     padding: 15px 25px;
     border: 1.5px solid var(--gray);
     border-radius: 5px;

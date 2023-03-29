@@ -58,8 +58,7 @@
 .testimony .testimony-text h2{
     margin-block-start: 0px;
     margin-block-end: 5px;
-    font-size: 2rem;
-    font-weight: 800;
+    font-size: 1.7rem;
     color: var(--darkYellow);
 }
 

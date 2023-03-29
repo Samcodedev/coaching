@@ -24,7 +24,7 @@ const Header = () => {
     <div className='header' >
       <div className="text-div" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="600">
         <p>Hello welcome to The Global Catalysts  </p>
-        <h1>We inspire individuals and organizations through <span>coaching </span>, <span>consulting</span>, <span>training</span> and <span> therapy</span> to become positive, <span>productive </span> and <span> purpose-driven.</span> </h1>
+        <h1>We inspire individuals and organizations through <span>coaching </span>, <span>consulting</span>, <span>training</span> and <span>therapy</span> to become positive, productive and purpose-driven. </h1>
         <Link to="/about"><button> <MdReadMore fontSize={20} /> <span>more details</span> </button></Link>
       </div>
     </div>

@@ -20,7 +20,7 @@ const Card = (props) => {
         <VscPassFilled />
         <h3>{props.title}</h3>
       </div>
-      <p>{props.contents}</p>
+      <p id='p'>{props.contents}</p>
       <Link to="/service">
         <button id='details'><RxTriangleRight /> <span>Our Service</span></button>
       </Link>
