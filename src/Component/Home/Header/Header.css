@@ -8,12 +8,20 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    overflow: hidden;
 }
 .header .text-div{
-    /* background-color: blue; */
+    background-image: linear-gradient(to right, #373737f1, #373737e0, transparent);
     padding: 40px 50px;
     text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
     width: 600px;
+    height: 100%;
     max-width: 80%;
     margin-right: 10%;
 }
@@ -57,8 +65,10 @@
         justify-content: center;
     }
     .header .text-div{
-        margin-right: 0%;
         padding: 40px 0px;
-        max-width: 90%;
+        padding-left: 5%;
+        margin: 0;
+        width: 100vw;
+        background-image: linear-gradient(to right, #373737e0, #373737e0);
     }
 }

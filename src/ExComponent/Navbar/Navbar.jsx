@@ -16,11 +16,11 @@ const Navbar = () => {
 
   function navbar() {
     openFunc(true)
-    console.log("open")
+    // console.log("open")
   }
   function close(){
     openFunc(false)
-    console.log("close")
+    // console.log("close")
   }
 
   function navi(){

@@ -1,27 +1,38 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import './Header.css'
 import { MdReadMore } from 'react-icons/md'
 import { Link } from 'react-router-dom'
-import img1 from '../../img/ECG Management Consultants - Healthcare Advisors.jfif'
-import img2 from '../../img/8061a41e-f457-45b7-ab17-9def2f838469.jfif'
-import img3 from '../../img/background.jfif'
+import img1 from '../../img/IMG-20230327-WA0002.jpg'
+import img2 from '../../img/20230309_123643.jpg'
+import img3 from '../../img/images.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 
 const Header = () => {
 
-  const image = [img1, img2, img3]
-  
+  let image = [img1, img2, img3, img1, img2, img3, img1, img2]
+  let [dis, disfunc] = useState(0)
+
+  function call() {
+    if(dis >= 7){
+      disfunc(dis = 0)
+    }else{
+      disfunc(dis += 1)
+    }
+  }
+
+  setInterval(() => {
+    call()
+  }, 5000);
 
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
 
-  console.log(image[2])
   return (
-    <div className='header' >
+    <div className='header' style={{backgroundImage: `url('${image[dis]}')`}} >
       <div className="text-div" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="600">
         <p>Hello welcome to The Global Catalysts  </p>
         <h1>We inspire individuals and organizations through <span>coaching </span>, <span>consulting</span>, <span>training</span> and <span>therapy</span> to become positive, productive and purpose-driven. </h1>
