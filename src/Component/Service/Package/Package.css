@@ -23,7 +23,6 @@
 .package .sub-package{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: wrap;
     width: 90%;
     gap: 20px;

@@ -35,11 +35,11 @@
     margin-block-end: 30px;
     color: #fff;
     font-size: 1.7rem;
+    font-weight: normal;
 }
 
 .header .text-div h1 span{
-    font-weight: 800;
-    color: rgb(190, 190, 190);
+    font-weight: bold;
 }
 .header .text-div button{
     padding: 10px 25px;

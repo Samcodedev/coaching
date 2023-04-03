@@ -5,7 +5,7 @@
     background-image: -moz-linear-gradient(to bottom right, #30323d, 20%, var(--darkYellow));
     background-image: linear-gradient(to bottom right, #30323d, 20%, var(--darkYellow));
     /* background-color: var(--gray); */
-    padding: 20px 20px;
+    padding: 20px 25px;
     border-radius: 20px;
     margin: 50px 30px;
     margin-left: 0;
@@ -32,7 +32,7 @@
 }
 .tescard .text-div p{
     color: #c2c0c0;
-    font-size: 15px;
+    font-size: 13px;
 }
 .tescard .text-div .footer{
     border-top: 1.5px solid #c2c0c0;

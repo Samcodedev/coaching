@@ -1,39 +1,49 @@
 .sub-card{
     display: flex;
     flex-direction: column;
-    background-color: rgb(70, 70, 70);
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--YellowColor);
     width: 300px;
     border-radius: 5px;
     padding: 15px 15px;
+    min-height: 400px;
 }
-.sub-card .top{
+.sub-card .but-con{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub-card .but-con .top{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     border-bottom: 1.5px solid var(--gray);
     padding-bottom: 15px;
 }
-.sub-card .top .top-icons{
-    background-color: var(--gray);
+.sub-card .but-con .top .top-icons{
+    background-color: #96bdf8;
     padding: 10px 10px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sub-card .top .top-icons svg{
+.sub-card .but-con .top .top-icons svg{
     font-size: 30px;
+    /* color: #fff; */
 }
-.sub-card .top .top-text{
+.sub-card .but-con .top .top-text{
     margin-left: 10px;
 }
-.sub-card .top .top-text h4{
+.sub-card .but-con .top .top-text h4{
     margin-block-start: 0;
     margin-block-end: 0;
     color: #fff;
     font-size: 0.8rem;
 }
-.sub-card .top .top-text p{
+.sub-card .but-con .top .top-text p{
     margin-block-start: 0;
     margin-block-end: 0;
     font-size: 13px;
@@ -41,22 +51,23 @@
 }
 
 
-.sub-card ul{
+.sub-card .but-con ul{
     padding-inline-start: 15px;
 }
-.sub-card ul li{
+.sub-card .but-con ul li{
     color: #c6c3c3;
     font-size: 13px;
     margin-bottom: 10px;
     width: fit-content;
 }
-.sub-card ul li:hover{
-    color: var(--darkYellow);
+.sub-card .but-con ul li:hover{
+    color: #fff;
     cursor: default;
 }
 .sub-card a{
     width: 100%;
     text-decoration-line: none;
+    position: relative;
 }
 .sub-card a button{
     background-color: #fff;

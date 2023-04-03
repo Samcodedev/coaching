@@ -6,8 +6,8 @@
 .serviceText .sub-service-text{
     width: 90%;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    gap: 25px;
     /* background-color: aqua; */
     /* text-align: center; */
 }
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 65%;
+    width: 35%;
 }
 .serviceText .sub-service-text .service-content h4{
     font-size: 1.5rem;
@@ -26,6 +26,7 @@
 .serviceText .sub-service-text .service-content p{
     margin-block-start: 0;
     margin-block-end: 0;
+    line-height: 25px;
 }
 
 .serviceText .sub-service-text .img-div{

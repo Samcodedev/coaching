@@ -18,7 +18,7 @@
 }
 .inCard .text-div{
     position: relative;
-    background-color: var(--gray);
+    background-color: rgb(73, 73, 73);
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
