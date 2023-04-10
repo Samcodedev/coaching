@@ -4,11 +4,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh !important;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     overflow: hidden;
+    height: 100%;
 }
 .header .text-div{
     background-image: linear-gradient(to right, #373737f1, #373737e0, transparent);
@@ -65,10 +65,9 @@
         justify-content: center;
     }
     .header .text-div{
-        padding: 40px 0px;
-        padding-left: 5%;
-        margin: 0;
+        padding: 40px 10%;
+        margin: 0 0;
         width: 100vw;
-        background-image: linear-gradient(to right, #373737e0, #373737e0);
+        background-image: linear-gradient(to right, #000000e0, #000000e0);
     }
 }
