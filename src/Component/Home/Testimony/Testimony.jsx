@@ -3,6 +3,8 @@ import './Testimony.css'
 import TesCard from './Card/TesCard.jsx';
 import { motion } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import img from '../../img/fav.jpg'
 
@@ -13,6 +15,9 @@ const Testimony = () => {
     const carousel = useRef()
 
     useEffect(() => {
+        
+        AOS.init();
+        AOS.refresh();
         setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
     }, [])
 
@@ -62,7 +67,7 @@ const Testimony = () => {
           <h2>What our clients say on our <br /> eligibility and success rate</h2>
         </div>
         <motion.div className="carousel" ref={carousel} whileTap={{cursor: "grabbing"}}>
-            <motion.div drag="x" dragConstraints={{right: 0, left: -width}} className="inner">
+            <motion.div drag="x" dragConstraints={{right: 0, left: -width}} data-aos="fade-left" className="inner">
                 {data}
             </motion.div>
         </motion.div>

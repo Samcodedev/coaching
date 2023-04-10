@@ -33,7 +33,7 @@ const Form = (props) => {
                     props.data?
                     <option value={props.data.id.one}>{props.data.id.one}</option>
                     :
-                    <option value="Select a contact option">Select a contact option</option>
+                    <option value="Select a contact option*">Select a contact option*</option>
                 }
                 
                 <option value="Contact us">Contact us</option>

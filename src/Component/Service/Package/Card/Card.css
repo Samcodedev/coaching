@@ -55,13 +55,10 @@
     padding-inline-start: 15px;
 }
 .sub-card .but-con ul li{
-    color: #c6c3c3;
+    color: #fff;
     font-size: 13px;
     margin-bottom: 10px;
     width: fit-content;
-}
-.sub-card .but-con ul li:hover{
-    color: #fff;
     cursor: default;
 }
 .sub-card a{

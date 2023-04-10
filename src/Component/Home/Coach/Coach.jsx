@@ -16,7 +16,7 @@ const Coach = () => {
   return (
     <div className='coach'>
       <div className="sub-coach">
-        <div className="coach-text" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="600">
+        <div className="coach-text" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="600">
             <p>Training Packages</p>
             <h2>Educational and life <br /> mentoring services</h2>
             <Link to="/service"><button><RxTriangleRight /> <span>More details</span></button></Link>

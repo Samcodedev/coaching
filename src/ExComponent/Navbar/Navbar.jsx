@@ -30,7 +30,7 @@ const Navbar = () => {
   useEffect(() =>{
     const interval = setInterval(() => {
       window.innerWidth >= 980 ? navbar() : close()
-    }, 1000)
+    }, 1)
     return () => clearInterval(interval)
   },[open])
   

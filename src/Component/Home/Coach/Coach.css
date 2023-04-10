@@ -19,7 +19,9 @@
 .coach .sub-coach .coach-text{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
 }
 .coach .sub-coach .coach-text p{
     margin-block-start: 0;
@@ -65,7 +67,7 @@
     margin: 0 auto;
     position: relative;
     bottom: -70px;
-    border-radius: 10px;
+    border-radius: 30px;
     width: fit-content;
     gap: 30px;
 }
@@ -74,7 +76,7 @@
     margin-block-start: 0;
     margin-block-end: 0;
     line-height: 1.8rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: #fff;
 }
 .coach .sub-coach .coach-div a{

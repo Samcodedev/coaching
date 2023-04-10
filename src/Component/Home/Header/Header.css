@@ -1,10 +1,10 @@
 .header{
-    background-color: rgb(26, 26, 26);
+    /* background-color: rgb(26, 26, 26); */
     /* background-image: url('../../img/bca18913-2ba7-43b5-8247-70d77e739a2c.jfif'); */
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 90vh;
+    height: 100vh !important;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

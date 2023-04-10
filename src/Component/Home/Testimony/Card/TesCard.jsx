@@ -1,19 +1,19 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import './TesCard.css'
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 const TesCard = (props) => {
   
 
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  //   AOS.refresh();
+  // }, []);
 
   return (
     <div className='tescard'  
-      data-aos="fade-left"
+      // data-aos="fade-left"
       data-aos-anchor="#example-anchor"
       data-aos-offset="500"
       data-aos-duration="500">
