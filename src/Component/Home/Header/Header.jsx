@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import img1 from '../../img/IMG-20230327-WA0002.jpg'
 import img2 from '../../img/20230309_123643.jpg'
 import img3 from '../../img/images.png'
-import img4 from '../../img/IMG-20210526-WA0006.jpg'
+//import img4 from '../../img/IMG-20210526-WA0006.jpg'
 import img5 from '../../img/Theglobalcatalysts.jpg'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,7 +17,7 @@ const Header = () => {
   const backgroundImage1 = img1
   const backgroundImage2 = img2
   const backgroundImage3 = img3
-  const backgroundImage4 = img4
+  //const backgroundImage4 = img4
   const backgroundImage5 = img5
 
 
