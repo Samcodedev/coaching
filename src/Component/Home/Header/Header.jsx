@@ -6,6 +6,7 @@ import img1 from '../../img/IMG-20230327-WA0002.jpg'
 import img2 from '../../img/20230309_123643.jpg'
 import img3 from '../../img/images.png'
 import img4 from '../../img/IMG-20210526-WA0006.jpg'
+import img5 from '../../img/Theglobalcatalysts.jpg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
@@ -75,7 +76,7 @@ const Header = () => {
       <Slide 
         label="Consulting"
         background={{
-          backgroundImageSrc: backgroundImage4
+          backgroundImageSrc: backgroundImage5
         }}
       />
     <MenuNav />
