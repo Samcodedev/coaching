@@ -18,6 +18,7 @@ const Header = () => {
   const backgroundImage2 = img2
   const backgroundImage3 = img3
   const backgroundImage4 = img4
+  const backgroundImage5 = img5
 
 
   useEffect(() => {
