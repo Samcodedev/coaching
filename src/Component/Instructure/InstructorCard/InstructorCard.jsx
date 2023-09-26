@@ -17,7 +17,7 @@ const InstructorCard = () => {
     },
     {
       name: "Olaleye Rosiji",
-      role: "Lead coach/Managing Partner",
+      role: "Strategic Business Analyst",
       mail: "https://www.obanlasamuelolakunle@gmail.com",
       linkin: "https://www.linkedin.com/in/olaleye-rosiji/",
       img: prof1
